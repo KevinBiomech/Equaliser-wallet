@@ -29,7 +29,7 @@ const func     = _.merge(funcBase, funcExt);
 
 var bitcore    = require('bitcore-lib');
 bitcore.Networks.add({
-  name: 'ootnet',
+  name: 'eqlnet',
   alias: 'mainnet',
   pubkeyhash: 0x3c,
   privatekey: 0xbc,
@@ -37,12 +37,12 @@ bitcore.Networks.add({
   xpubkey: 0x0488b21e,
   xprivkey: 0x0488ade4,
   networkMagic: 0xf9eee48d,
-  port: 8333,
+  port: 10306,
   dnsSeeds: [
     'seed.komodoplatform.com'
   ]
 });
-bitcore.Networks.defaultNetwork = bitcore.Networks.get('ootnet');
+bitcore.Networks.defaultNetwork = bitcore.Networks.get('eqlnet');
 
 module.exports = {
   tech,

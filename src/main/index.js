@@ -69,9 +69,9 @@ function createWindow() {
   });
 
   const template = [{
-    label: 'Utrum Wallet App',
+    label: 'Equaliser Wallet App',
     submenu: [
-        { label: 'About Utrum Wallet', click: function () { aboutView() } },
+        { label: 'About Equaliser Wallet', click: function () { aboutView() } },
         { type: 'separator' },
         { label: 'Quit', accelerator: 'CmdOrCtrl+Q', click: function () { app.quit(); } },
     ] }, {

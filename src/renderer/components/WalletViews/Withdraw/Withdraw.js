@@ -33,7 +33,7 @@ export default {
     QrcodeReader
   },
   created() {
-    this.select = this.$store.getters.getTickerForExpectedCoin('OOT');
+    this.select = this.$store.getters.getTickerForExpectedCoin('EQL');
   },
   data() {
     return {
