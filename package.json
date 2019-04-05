@@ -1,8 +1,8 @@
 {
-  "name": "utrum-wallet",
+  "name": "equaliser-wallet",
   "version": "2.2.0",
-  "author": "Utrum Foundation",
-  "description": "Utrum Wallet",
+  "author": "equaliser Foundation",
+  "description": "equaliser Wallet",
   "license": "GPL-2.0",
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -30,8 +30,8 @@
     "eslint": "./node_modules/.bin/eslint src/"
   },
   "build": {
-    "productName": "Utrum Wallet",
-    "appId": "com.utrum.wallet",
+    "productName": "Equaliser Wallet",
+    "appId": "com.equaliser.wallet",
     "directories": {
       "output": "build"
     },
@@ -62,15 +62,15 @@
     },
     "mac": {
       "icon": "build/icons/512x512.png",
-      "artifactName": "utrum-wallet-${version}-mac.${ext}"
+      "artifactName": "equaliser-wallet-${version}-mac.${ext}"
     },
     "win": {
       "icon": "build/icons/512x512.png",
-      "artifactName": "utrum-wallet-${version}-setup.${ext}"
+      "artifactName": "equaliser-wallet-${version}-setup.${ext}"
     },
     "linux": {
       "icon": "build/icons",
-      "artifactName": "utrum-wallet-${version}-x86_64.${ext}"
+      "artifactName": "equaliser-wallet-${version}-x86_64.${ext}"
     }
   },
   "dependencies": {
@@ -97,7 +97,7 @@
     "js-sha256": "^0.9.0",
     "less": "^3.0.1",
     "less-loader": "^4.0.5",
-    "libwallet-utrum": "https://github.com/KevinBiomech/libwallet-equaliser",
+    "libwallet-equaliser": "https://github.com/KevinBiomech/libwallet-equaliser",
     "lodash": "^4.17.5",
     "moment": "^2.22.0",
     "moment-timezone": "^0.5.14",
