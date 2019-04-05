@@ -14,7 +14,7 @@
  *                                                                            *
  ******************************************************************************/
 
-import { Wallet, coins, fees } from 'libwallet-utrum';
+import { Wallet, coins, fees } from 'libwallet-equaliser';
 import { BigNumber } from 'bignumber.js';
 
 import * as _ from 'lodash';
